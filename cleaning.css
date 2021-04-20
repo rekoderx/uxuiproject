@@ -1,4 +1,82 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0;
+    color: #4F5D6A;
+}
+
+/* HEADER STYLING */
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header h5 {
+    font-size: 1em;
+    font-weight: 200;
+}
+
+/* MAIN PAGE STYLING */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h2 {
+    font-weight: 200;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+main h3 {
+    font-size: 2.5em;  
+}
+
+main h4 {
+    font-weight: 200;
+}
+
+main img {
+    width: 240px;
+    margin: 40px 0;
+}
+
+main .calendar {
+    margin: 16px 0;
+}
+
+main a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007AFF;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 0.8em;
+}
+
+img.switch {
+    width: 20px;
+}
+
+
+/* Calendar */
+
+* {
     box-sizing: border-box;
 }
 
@@ -11,10 +89,12 @@ body {
 }
 
 .month {
-    padding: 40px 25px;
-    width: 100%;
-    background: #459EFF;
+    padding: 10px 5px;
+    margin-top: 10%;
+    width: 80%;
+    background: #1996A4;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .month ul {
@@ -42,8 +122,9 @@ body {
 .weekdays {
     margin: 0;
     padding: 10px 0;
+    width: 80%;
     background-color: #EEEEF0;
-    box-shadow: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .weekdays li {
@@ -57,6 +138,9 @@ body {
     padding: 10px 0;
     background: #ffff;
     margin: 0;
+    width: 80%;
+    margin-bottom: 5%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .days li {
@@ -72,7 +156,7 @@ body {
 .days li .active {
     padding: 5px;
     border-radius: 40%;
-    background: #459EFF;
+    background: #1996A4;
     color: white !important;
 }
 
@@ -104,4 +188,26 @@ body {
     .days li {
         width: 12.2%;
     }
+}
+
+
+/* FOOTER STYLING */
+footer {
+    margin: 0 auto;
+    position: relative;
+    /* bottom: -24px; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+footer .lock-active {
+    width: 36px;
+    height: 36px;
 }
