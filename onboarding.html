@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Onboarding</title>
+    <link rel="stylesheet" href="onboarding.css" type="text/css">
+</head>
+
+<body>
+
+    <div class="slider">
+        <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav" />
+        <input type="radio" name="slider" title="slide2" class="slider__nav" />
+        <input type="radio" name="slider" title="slide3" class="slider__nav" />
+        <input type="radio" name="slider" title="slide4" class="slider__nav" />
+        <input type="radio" name="slider" title="slide5" class="slider__nav" />
+
+
+        <div class="slider__inner">
+
+            <div class="slider__contents"><i class="slider__image fa fa-home"></i>
+                <h1 class="hello">Aarhus Kollegiet</h1>
+                <h4>Brabrand Housing Association</h4>
+                <img src="welcome.png" alt="welcome">
+                <h2>Welcome to Aarhus Kollegiet App.</h2>
+                <p class="slider__txt">We have created this app to make things simple for you. Let me show you the features!</p>
+                <button onClick="slide()" class="btn">Next</button>
+            </div>
+
+            <div class="slider__contents"><i class="slider__image fa fa-facebook"></i>
+                <h2 class="slider__caption">Get notification when your can collect your laundry</h2>
+                <img src="78-Laundry.png" alt="laundry">
+                <p class="slider__txt">Is it annoying when you forget about your laundry? You don’t have to worry about it anymore!</p>
+                <button onClick="slide()" class="btn">Next</button>
+            </div>
+
+            <div class="slider__contents"><i class="slider__image fa fa-google-plus"></i>
+                <h2 class="slider__caption">Check if your door is locked</h2>
+                <img src="door%20onboard.png" alt="lock">
+                <p class="slider__txt">Sometimes, we just forget about small details. From now on, you can see and and control the lock of your door. Anywhere and anytime.</p>
+                <button onClick="slide1()" class="btn">Next</button>
+            </div>
+
+            <div class="slider__contents"><i class="slider__image fa fa-twitter"></i>
+                <h2 class="slider__caption">Enjoy the common area</h2>
+                <img src="tvroom%20onboard.png" alt="tv room">
+                <p class="slider__txt">Would you like to watch a movie or have a party with your friends in the common area? No problem! You can book it easily in the App.</p>
+                <button onClick="slide()" class="btn">Next</button>
+            </div>
+
+            <div class="slider__contents"><i class="slider__image fa fa-twitter"></i>
+                <h2 class="slider__caption">Check your cleaning schedule</h2>
+                <img src="09-Cleaner.png" alt="cleaning">
+                <p class="slider__txt">Do you always forget when it is your turn? Follow the cleaning schedule in the App and get notification when it's your call.</p>
+                <a href="#" class="btn2">Enjoy!</a>
+            </div>
+
+        </div>
+    </div>
+    <script src="js2.js"></script>
+</body>
+
+</html>
