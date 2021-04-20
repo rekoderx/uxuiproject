@@ -5,7 +5,7 @@
 }
 
 body {
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     height: 100vh;
     font-family: 'Montserrat';
@@ -33,6 +33,11 @@ header h5 {
 
 header div {
     width: 50px;
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
 }
 
 main .portrait {
@@ -85,7 +90,7 @@ main .language {
 }
 
 main .language {
-    margin: 16px 0;
+    margin: 32px 0;
 }
 
 main .logout {
@@ -146,7 +151,7 @@ footer {
     margin: 0 auto;
     position: relative;
     /* bottom: -24px; */
-    width: 100%;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center;
