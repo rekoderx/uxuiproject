@@ -23,6 +23,10 @@ header .header-container {
     align-items: center;
 }
 
+header a {
+    margin-top: 32px;
+}
+
 .header-container h2 {
     font-weight: 200;
     font-size: 1.3em;
