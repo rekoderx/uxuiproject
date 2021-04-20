@@ -23,8 +23,8 @@ header .header-container {
     align-items: center;
 }
 
-header a {
-    margin-top: 32px;
+header .weatherwidget-io {
+    margin-top: 24px;
 }
 
 .header-container h2 {
