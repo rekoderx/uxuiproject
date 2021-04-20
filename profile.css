@@ -38,7 +38,7 @@ header div {
 main .portrait {
     display: block;
     margin: -24px auto 0;
-    width: 70px;
+    width: 100px;
 }
 
 main h3 {
@@ -108,7 +108,7 @@ main .logout {
     border-radius: 50px;
     width: 50px;
     height: 24px;
-    padding: 5px;
+    padding: 3px;
     background-color: #606065;
     transition: background-color .2s;
     cursor: pointer;
@@ -125,6 +125,32 @@ main .logout {
     justify-content: center;
     align-items: center;
 }
+
+.switch1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 50px;
+    width: 50px;
+    height: 24px;
+    padding: 3px;
+    background-color: #606065;
+    transition: background-color .2s;
+    cursor: pointer;
+}
+
+.btn-toggle1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    transition: transform .1s;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .btn-toggle img {
     width: 16px;
@@ -157,11 +183,25 @@ footer img {
     height: 30px;
 }
 
+
 /* TOGGLE BUTTON ANIMATRION */
+.dark-theme {
+    background-image: repeating-linear-gradient(#48485B, #32323C);
+    color: white;
+}
+
 .dark-theme .switch {
     background-color: #32D74B;
 }
 
 .dark-theme .btn-toggle {
-    transform: translateX(22px);
+    transform: translateX(23px);
+}
+
+.dark-theme footer img {
+   background-color: darkgray;
+    border-radius: 50%;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
 }

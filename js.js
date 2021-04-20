@@ -1,8 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const main = document.querySelector('main')
+    const body = document.querySelector('body')
     const toggleSwitch = document.querySelector('.switch')
     
     toggleSwitch.addEventListener('click', () => {
-        main.classList.toggle('dark-theme')
+        body.classList.toggle('dark-theme')
+        
     })
 })
+
+
+
