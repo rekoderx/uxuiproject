@@ -98,6 +98,15 @@ body {
 }
 
 
+.skip {
+   display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    position: absolute;
+    top: 30px;
+    font-size: 14px;
+}
+
 
 .slider__inner {
   position: absolute;
@@ -117,7 +126,7 @@ body {
 }
 
 .slider__contents {
- width: 375px;
+  width: 375px;
   height: 90%;
   padding: 2rem;
   text-align: center;
@@ -172,7 +181,7 @@ img {
 }
 
 
-.btn2 {
+.btn_go {
     padding: 5px 30px;
     color: #fff;
     position: absolute;
